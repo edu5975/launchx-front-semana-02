@@ -46,6 +46,18 @@ img {
     height: auto;
 }
 
+footer {
+    margin: 20px 0;
+    width: 100%;
+    color: var(--blanco);
+    text-align: center;
+}
+
+footer a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
 
 /* CONTENEDORES */
 
