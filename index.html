@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Super Pasteles</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="/"><img src="./src/Logo.png" alt="Logo" class="logo"></a>
+        <a class="active" href="/">Inicio</a>
+        <a href="/login.html">Administrador</a>
+        <a href="/pedido.html">Pedidos</a>
+    </div>
+
+    <section id="slider">
+        <img class="slider" src="./src/Frase 1.png">
+        <img class="slider" src="./src/Frase 2.png">
+        <img class="slider" src="./src/Frase 3.png">
+        <div class="slider-botones" style="width:100%">
+            <span class="slider-izquierda" onclick="plusDivs(-1)">&#10094;</span>
+            <span class="slider-derecha" onclick="plusDivs(1)">&#10095;</span>
+        </div>
+    </section>
+
+    <section id="section-sabores">
+        <div class="contenedor-col-3">
+            <div class="detalle">
+                <h2>Tamaños</h2>
+                <p>
+                    <span class="descripcion">Héroe</span>
+                    <span class="precio">100</span>
+                </p>
+                <p>
+                    <span class="descripcion">Anti héroe</span>
+                    <span class="precio">130</span>
+                </p>
+                <p>
+                    <span class="descripcion">Super héroe</span>
+                    <span class="precio">180</span>
+                </p>
+                <p>
+                    <span class="descripcion">Leyenda</span>
+                    <span class="precio">200</span>
+                </p>
+            </div>
+            <div class="detalle">
+                <h2>Sabores</h2>
+                <p>
+                    <span class="descripcion">Spider-Choco</span>
+                    <span class="precio">100</span>
+                </p>
+                <p>
+                    <span class="descripcion">Hulk de Limón</span>
+                    <span class="precio">80</span>
+                </p>
+                <p>
+                    <span class="descripcion">Iron-Fresa</span>
+                    <span class="precio">70</span>
+                </p>
+                <p>
+                    <span class="descripcion">Capitan Vainilla</span>
+                    <span class="precio">70</span>
+                </p>
+            </div>
+            <div class="detalle">
+                <h2>Adornos</h2>
+                <p>
+                    <span class="descripcion">Letras o números (c/u)</span>
+                    <span class="precio">10</span>
+                </p>
+                <p>
+                    <span class="descripcion">Imagen</span>
+                    <span class="precio">50</span>
+                </p>
+                <p>
+                    <span class="descripcion">Frutas</span>
+                    <span class="precio">40</span>
+                </p>
+                <p>
+                    <span class="descripcion">Figura</span>
+                    <span class="precio">200</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section-formulario">
+        <form action="/">
+            <div class="renglon">
+                <div class="columna-4">
+                    <label for="nombre">Nombre</label><br>
+                    <input name="nombre" type="text">
+                </div>
+                <div class="columna-4">
+                    <label for="telefono">Telefono</label><br>
+                    <input name="telefono" type="text">
+                </div>
+                <div class="columna-4">
+                    <label for="email">Email</label><br>
+                    <input name="email" type="email">
+                </div>
+            </div>
+            <div class="renglon">
+                <div class="columna-12">
+                    <label for="descripcion">Descripcion</label><br>
+                    <textarea name="descripcion"></textarea>
+                </div>
+            </div>
+            <div class="renglon">
+                <div class="columna-4">
+                    <p>Tamaño</p>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Héroe</label>
+                        <input type="radio" name="tamano">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Anti Héroe</label>
+                        <input type="radio" name="tamano">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Super Héroe</label>
+                        <input type="radio" name="tamano">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Leyenda</label>
+                        <input type="radio" name="tamano">
+                    </div>
+                </div>
+                <div class="columna-4">
+                    <p>Sabores</p>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Spider-Choco</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Hulk de Limón</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Iron-Fresa</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Capitan Vainilla</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                </div>
+                <div class="columna-4">
+                    <p>Adornos</p>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Letras o números</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Imagen</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Frutas</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                    <div class="contenedor-col-2">
+                        <label for="descripcion">Figura</label>
+                        <input type="checkbox" name="sabor">
+                    </div>
+                </div>
+            </div>
+            <div class="renglon">
+                <div class="columna-8"></div>
+                <div class="columna-2"><input type="reset" value="Reiniciar"></div>
+                <div class="columna-2"><input type="submit" value="Enviar"></div>
+            </div>
+        </form>
+
+    </section>
+
+    <script src='main.js'></script>
+</body>
+
+</html>
