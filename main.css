@@ -35,6 +35,30 @@ textarea {
     width: 100%;
 }
 
+.boton {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
 textarea {
     overflow: hidden;
     height: 220px;
@@ -56,6 +80,20 @@ footer {
 footer a {
     color: var(--blanco);
     text-decoration: none;
+}
+
+.color-fondo {
+    background-color: var(--bg-principal);
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
 }
 
 
@@ -376,6 +414,72 @@ h1 a:hover {
     background: var(--bg-principal);
 }
 
-.section-formulario form .contenedor-col-3 fieldset {
-    max-width: 33%;
+
+/* MAPA */
+
+.centrar {
+    text-align: center;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.mapa {
+    position: relative;
+    width: 80%;
+    height: 300px;
+}
+
+
+/* CONTACTO */
+
+.section-contacto {
+    color: var(--blanco);
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.section-contacto form {
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--bg-principal);
+}
+
+
+/* LOGIN */
+
+.section-login {
+    color: var(--blanco);
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.section-login form {
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--bg-principal);
+}
+
+
+/* ORDENES */
+
+.section-ordenes {
+    color: var(--blanco);
+    padding: 20px;
+}
+
+.section-ordenes .detalle {
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--bg-principal);
+}
+
+.detalle {
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--bg-principal);
+}
+
+a {
+    text-decoration: none;
+    color: var(--blanco);
 }

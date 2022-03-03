@@ -13,11 +13,33 @@
     <div class="navbar">
         <a href="/"><img src="./src/Logo.png" alt="Logo" class="logo"></a>
         <a href="/">Inicio</a>
-        <a class="active" href="/login.html">Administrador</a>
         <a href="/pedido.html">Pedidos</a>
+        <a class="active" href="/login.html">Administrador</a>
+        <a href="/contacto.html">Contacto</a>
     </div>
 
+    <section class="section-contacto">
+        <form action="/administrador.html" method="get">
+            <div class="renglon">
+                <div class="columna-8 centrar">
+                    <h1>Bienvenido Administrador</h1>
+                    <img src="./src/Logo.png" alt="Logo" style="width: 80%;">
+                </div>
+                <div class="columna-4">
+                    <label for="nombre">Nombre</label><br>
+                    <input name="nombre" type="text">
+                    <label for="telefono">Telefono</label><br>
+                    <input name="telefono" type="text">
+                    <div class="renglon">
+                        <div class="columna-6"><input type="submit" value="Registrar"></div>
+                        <div class="columna-6"><input type="submit" value="Iniciar"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
 
+    <footer><a href="eduardorico.tk">® Eduardo Rico 2022</a></footer>
     <script src='main.js'></script>
 </body>
 
